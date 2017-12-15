@@ -29,7 +29,7 @@ import plotly.graph_objs as go
 # In[2]:
 
 
-euro_data = pd.read_csv("/Users/guillemborrasgali/Downloads/Eurostat_file.csv")
+euro_data = pd.read_csv("Eurostat_file.csv")
 
 available_indicators = euro_data['NA_ITEM'].unique()
 
